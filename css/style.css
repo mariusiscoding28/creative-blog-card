@@ -81,6 +81,11 @@ body {
   color: var(--gray);
 }
 
+.icon-text:not(:last-of-type) {
+  padding-right: 1.2rem;
+  border-right: 0.2rem solid var(--gray);
+}
+
 .post-content {
   margin-top: 2rem;
 }
@@ -127,9 +132,9 @@ body {
   height: 0;
 }
 
+
 /* Media Queries */
 @media screen and (min-width: 553px) {
-
   .card-horizontal {
     display: flex;
   }
@@ -147,7 +152,6 @@ body {
   .card-horizontal .card-body:hover {
     flex: 1.5;
   }
-
 }
 
 @media screen and (min-width: 901px) {}
